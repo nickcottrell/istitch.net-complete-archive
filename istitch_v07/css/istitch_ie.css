@@ -1,0 +1,224 @@
+/*------------------------------------------------
+title: istitch.net (i.e. style sheet)
+author: nick cottrell (ncottrell@istitch.net)
+updated: 6/08/07
+------------------------------------------------*/
+
+#header {
+	position:absolute;
+	top:10px;
+	left:0px;
+	width:988px;
+	height:155px;
+	background-image:url(../images/header_bg.gif);
+	background-repeat:no-repeat;
+	z-index:100;
+	}
+	
+
+/*------------------------------------------------
+navigation */
+
+#nav1 {
+	position:absolute;
+	right:50px;
+	top:0px;
+	float:right;
+	width:300px;
+	height:50px;
+	padding:0;
+	margin:0;
+	}
+
+#nav1 ul {
+	float:right;
+	padding:0;
+	margin:0;
+	}
+
+#nav1 li {
+	display:inline;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	}
+	
+#nav1 a {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:15px;
+	color:#336600;
+	text-decoration:none;
+	margin:0 10px 0 10px;
+	padding:0;
+	border-bottom:solid;
+	border-width:6px;
+	border-color:#FFFFFF;
+	}
+	
+#nav1 a:hover {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:15px;
+	color:#336600;
+	text-decoration:none;
+	margin:0 10px 0 10px;
+	padding:0;
+	border-bottom:solid;
+	border-width:6px;
+	border-color:#FDB813;
+	}
+	
+#nav1 a.active {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:15px;
+	color:#336600;
+	text-decoration:none;
+	margin:0 10px 0 10px;
+	padding:0;
+	border-bottom:solid;
+	border-width:6px;
+	border-color:#FDB813;
+	}
+	
+
+/*------------------------------------------------
+misc. elements */
+
+.divide {
+	width:auto;
+	height:3px;
+	background-image:url(../images/green_dash.gif);
+	background-repeat:repeat-x;
+	padding:0;
+	margin:0;
+	}
+	
+	
+/*------------------------------------------------
+typography */
+
+p	{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:11px;
+	color:#333333;
+	line-height:18px;
+	margin:0 0 10px 0;
+	padding:0;
+	}
+	
+.copy2 p	{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#666666;
+	line-height:15px;
+	margin:0;
+	padding:0;
+	}
+
+.copy3 p	{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666666;
+	line-height:18px;
+	margin:0;
+	padding:0;
+	}
+
+	
+h1	{font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:24px;
+	color:#336600;
+	font-weight:normal;
+	padding:0;
+	margin:5px 0 0 0;
+	}
+	
+h2	{font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:15px;
+	color:#336600;
+	font-style:italic;
+	font-weight:normal;
+	padding:0;
+	margin:0 0 10px 0;
+	}
+
+h3	{font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FDB813;
+	text-transform:uppercase;
+	letter-spacing:.5px;
+	padding:0;
+	margin:0 0 5px 0;
+	}
+	
+h4	{font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#666666;
+	font-style:italic;
+	margin:0 0 7px 0;
+	}
+
+#top_midcol ul {
+	padding:0;
+	margin:0;
+	}
+
+#top_midcol li {
+	display:inline;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	}
+	
+#top_midcol a {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:9px;
+	line-height:15px;
+	color:#666666;
+	text-decoration:none;
+	margin:0;
+	padding:0;
+	}
+	
+#top_midcol a.active,  #top_midcol a:hover {
+	color:#FDB813;
+	}
+	
+#leftcol ul {
+	padding:0;
+	margin:0;
+	text-align:right;
+	}
+
+#leftcol li {
+	list-style-type:none;
+	text-decoration:none;
+	margin:0;
+	padding:0;
+	}
+	
+#leftcol a {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:9px;
+	line-height:18px;
+	color:#666666;
+	text-decoration:none;
+	margin:0;
+	padding:0;
+	}
+	
+#leftcol a.active,  #leftcol a:hover {
+	color:#FDB813;
+	}
+	
+form {
+	padding:0;
+	margin:0;
+	}
+

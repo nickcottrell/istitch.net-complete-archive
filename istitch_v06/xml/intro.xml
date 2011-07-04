@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<images>
+    <pic>
+        <img_int>slide_bin/intro_01.jpg</img_int>
+        <caption></caption>
+    </pic>
+     <pic>
+        <img_int>slide_bin/intro_02.jpg</img_int>
+        <caption></caption>
+    </pic>
+     <pic>
+        <img_int>slide_bin/intro_03.jpg</img_int>
+        <caption></caption>
+    </pic>
+	<pic>
+        <img_int>slide_bin/intro_04.jpg</img_int>
+        <caption></caption>
+    </pic>
+     <pic>
+        <img_int>slide_bin/intro_05.jpg</img_int>
+        <caption></caption>
+    </pic>
+     <pic>
+        <img_int>slide_bin/intro_06.jpg</img_int>
+        <caption></caption>
+    </pic>
+	<pic>
+        <img_int>slide_bin/intro_07.jpg</img_int>
+        <caption></caption>
+    </pic>
+     <pic>
+        <img_int>slide_bin/intro_08.jpg</img_int>
+        <caption></caption>
+    </pic>
+     <pic>
+        <img_int>slide_bin/intro_09.jpg</img_int>
+        <caption></caption>
+    </pic>
+	<pic>
+        <img_int>slide_bin/intro_10.jpg</img_int>
+        <caption></caption>
+    </pic>
+     <pic>
+        <img_int>slide_bin/intro_11.jpg</img_int>
+        <caption></caption>
+    </pic>
+</images>

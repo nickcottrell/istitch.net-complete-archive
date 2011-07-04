@@ -1,0 +1,80 @@
+<HTML>
+<HEAD>
+<TITLE>index</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<!-- ImageReady Preload Script (index.psd) -->
+<SCRIPT TYPE="text/javascript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		index_03_over = newImage("images/index_03-over.gif");
+		index_05_over = newImage("images/index_05-over.gif");
+		preloadFlag = true;
+	}
+}
+
+// -->
+</SCRIPT>
+<!-- End Preload Script -->
+<style type="text/css">
+<!--
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+-->
+</style></HEAD>
+<BODY BGCOLOR=#FFFFFF LEFTMARGIN=0 MARGINWIDTH=0 ONLOAD="preloadImages();">
+<!-- ImageReady Slices (index.psd) -->
+<center>
+<TABLE WIDTH=550 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=5>
+			<IMG SRC="images/index_01.gif" WIDTH=550 HEIGHT=183 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/index_02.gif" WIDTH=126 HEIGHT=217 ALT=""></TD>
+		<TD>
+			<A HREF="http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank"
+				ONMOUSEOVER="changeImages('index_03', 'images/index_03-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('index_03', 'images/index_03.gif'); return true;">
+				<IMG NAME="index_03" SRC="images/index_03.gif" WIDTH=98 HEIGHT=17 BORDER=0 ALT=""></A></TD>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/index_04.gif" WIDTH=88 HEIGHT=217 ALT=""></TD>
+		<TD>
+			<A HREF="main.html"
+				ONMOUSEOVER="changeImages('index_05', 'images/index_05-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('index_05', 'images/index_05.gif'); return true;">
+				<IMG NAME="index_05" SRC="images/index_05.gif" WIDTH=110 HEIGHT=17 BORDER=0 ALT=""></A></TD>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/index_06.gif" WIDTH=128 HEIGHT=217 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD>
+			<IMG SRC="images/index_07.gif" WIDTH=98 HEIGHT=200 ALT=""></TD>
+		<TD>
+			<IMG SRC="images/index_08.gif" WIDTH=110 HEIGHT=200 ALT=""></TD>
+	</TR>
+</TABLE>
+<!-- End ImageReady Slices -->
+</BODY>
+</HTML>

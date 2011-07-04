@@ -1,0 +1,95 @@
+/*------------------------------------------------
+title: istitch.net (wordpress styles)
+author: nick cottrell (ncottrell@istitch.net)
+updated: 6/08/07
+------------------------------------------------*/
+
+
+body {
+background-color:#ffffff;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:11px;
+color:#333333;
+line-height:18px;
+margin:0 0 7px;
+padding:0;
+}
+
+h2 {
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:24px;
+color:#336600;
+font-weight:normal;
+padding:0;
+margin:35px 0 0 0;
+}
+
+h3 {
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:15px;
+color:#336600;
+font-style:italic;
+font-weight:normal;
+padding:0;
+margin:7px 0 0 0;
+}
+
+a:link {
+color:#336600;
+text-decoration:none;
+}
+
+a:visited {
+color:#336600;
+text-decoration:none;
+}
+
+a:hover {
+color:#000000;
+text-decoration:none;
+}
+
+a:active {
+color:#336600;
+text-decoration:none;
+}
+
+#wrap {
+background:#fff;
+border-left:0;
+border-right:0;
+text-align:left;
+width:655px;
+padding:0 15px;
+}
+
+#content {
+font-size:1.1em;
+float:left;
+width:655px;
+overflow:hidden;
+}
+
+#sidebar {
+display:none;
+}
+
+#header {
+display:none;
+}
+
+#nav {
+display:none;
+}
+
+.commentsblock {
+display:none;
+}
+
+.entrymeta {
+display:none;
+}
+
+#footer {
+display:none;
+}

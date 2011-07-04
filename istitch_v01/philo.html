@@ -1,0 +1,70 @@
+<HTML>
+<HEAD>
+<TITLE>philo</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<!-- ImageReady Preload Script (philo.psd) -->
+<SCRIPT TYPE="text/javascript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		philo_03_over = newImage("images/philo_03-over.gif");
+		philo_04_over = newImage("images/philo_04-over.gif");
+		preloadFlag = true;
+	}
+}
+
+// -->
+</SCRIPT>
+<!-- End Preload Script -->
+<style type="text/css">
+<!--
+body {
+	background-color: #CCCC66;
+}
+-->
+</style></HEAD>
+<BODY LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 ONLOAD="preloadImages();">
+<!-- ImageReady Slices (philo.psd) -->
+<TABLE WIDTH=800 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=4>
+			<IMG SRC="images/philo_01.gif" WIDTH=800 HEIGHT=576 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD>
+			<IMG SRC="images/philo_02.gif" WIDTH=702 HEIGHT=24 ALT=""></TD>
+		<TD>
+			<A HREF="contact.html" target="_blank"
+				ONMOUSEOVER="changeImages('philo_03', 'images/philo_03-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('philo_03', 'images/philo_03.gif'); return true;">
+				<IMG NAME="philo_03" SRC="images/philo_03.gif" WIDTH=54 HEIGHT=24 BORDER=0 ALT=""></A></TD>
+		<TD>
+			<A HREF="main.html"
+				ONMOUSEOVER="changeImages('philo_04', 'images/philo_04-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('philo_04', 'images/philo_04.gif'); return true;">
+				<IMG NAME="philo_04" SRC="images/philo_04.gif" WIDTH=33 HEIGHT=24 BORDER=0 ALT=""></A></TD>
+		<TD>
+			<IMG SRC="images/philo_05.gif" WIDTH=11 HEIGHT=24 ALT=""></TD>
+	</TR>
+</TABLE>
+<!-- End ImageReady Slices -->
+</BODY>
+</HTML>

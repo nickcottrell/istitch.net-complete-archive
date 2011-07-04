@@ -1,0 +1,214 @@
+/*------------------------------------------------
+title: istitch.net (print style sheet)
+author: nick cottrell (ncottrell@istitch.net)
+updated: 06/11/07
+------------------------------------------------*/
+
+body 	{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:11pt;
+	margin-right:20%;
+	}
+
+/*------------------------------------------------
+suppressed elements */
+
+#nav1, #imagecontent, #slideShow, #right2col, #low_right2col, .arrow_text, #formcontent, #flashlogo {
+	display:none;
+	}
+	
+
+/*------------------------------------------------
+links */
+
+#leftcol a:link:after, #leftcol a:visited:after	{
+	content: " (" attr(href) ") ";
+	}
+
+#rightcol a:link:after, #rightcol a:visited:after	{
+	content: " (" attr(href) ") ";
+	}
+	
+#footer a:link:after, #footer a:visited:after	{
+	content: " (" attr(href) ") ";
+	}
+
+a:link {
+	color:#000000;
+	}
+
+a:visited {
+	color:#000000;
+	}
+
+a:hover {
+	color:#000000;
+	}
+
+a:active {
+	color:#000000;
+	}
+	
+
+/*------------------------------------------------
+borders */
+
+#logo {
+	text-align:center;
+	width:100%;
+	height:98px;
+	border-style:dashed;
+	border-width:thin;
+	border-color:#999999;
+	margin: 35pt 0 25pt 0;
+	}
+
+#rightcol {
+	border-top-width:0;
+	border-left-width:0;
+	border-right-width:0;
+	border-bottom:thin;
+	border-style:dashed;
+	border-color:#999999;
+	margin:0;
+	padding:10px 0px 15px 10px;
+	}
+	
+#top_leftcol {
+	border-top-width:0;
+	border-left-width:0;
+	border-right-width:0;
+	border-bottom:thin;
+	border-style:dashed;
+	border-color:#999999;
+	width:70%;
+	margin:0;
+	padding:10pt 0pt 15pt 10pt;
+	}
+
+#top_midcol {
+	border-top-width:0;
+	border-left-width:0;
+	border-right-width:0;
+	border-bottom:thin;
+	border-style:dashed;
+	border-color:#999999;
+	width:70%;
+	margin:0;
+	padding:10pt 0pt 15pt 10pt;
+	}
+	
+#midcol {
+	border-top-width:0;
+	border-left-width:0;
+	border-right-width:0;
+	border-bottom:thin;
+	border-style:dashed;
+	border-color:#999999;
+	width:70%;
+	margin:0;
+	padding:10pt 0pt 15pt 10pt;
+	}
+	
+#leftcol {
+	border-top-width:0;
+	border-left-width:0;
+	border-right-width:0;
+	border-bottom:thin;
+	border-style:dashed;
+	border-color:#999999;
+	width:100%;
+	margin:0;
+	padding:10pt 0pt 15pt 10pt;
+	}
+
+
+/*------------------------------------------------
+typography */
+
+p	{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:11pt;
+	line-height:18pt;
+	}
+	
+.copy2 p	{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9pt;
+	line-height:15pt;
+	}
+
+.copy3 p	{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12pt;
+	line-height:20pt;
+	}
+
+	
+h1	{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:24pt;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	}
+	
+h2	{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18pt;
+	font-style:italic;
+	font-weight:normal;
+	margin:5pt 0 10pt 0;
+	padding:0;
+	}
+
+h3	{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9pt;
+	text-transform:uppercase;
+	}
+	
+h4	{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	font-style:italic;
+	margin:0 0 7pt 0;
+	}
+
+#top_midcol a:link {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:11pt;
+	text-decoration:none;
+	color:#000000;
+	}
+
+#top_midcol a:visited {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:11pt;
+	text-decoration:none;
+	color:#000000;
+	}
+
+#top_midcol a:hover {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:11pt;
+	text-decoration:none;
+	color:#000000;
+	}
+
+#top_midcol a:active {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:11pt;
+	text-decoration:none;
+	color:#000000;
+	}
+
+.footercopy {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:8pt;
+	margin:10pt 0 0 0;
+	}
