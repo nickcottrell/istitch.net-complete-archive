@@ -17,4 +17,9 @@ I used to have a business called istitch.net and this is where I keep the old co
 
 Please note: it's funny, but you can see from version to version the amount I learned about web design... in the early 2000s, I totally jumped onto the flash band wagon, got way into 'multi level' flash set-ups, and then learned about web standards and php includes. The last version was pretty modular and at that point I started to care a lot about the way my code looked.
 
+For the PHP stuff:
+
+	$ cd directory/
+	$ php -S localhost:8000
+
  
